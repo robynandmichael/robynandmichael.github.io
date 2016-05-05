@@ -18,11 +18,18 @@
 	<script type="text/javascript" src="includes/js/moment.js"></script>
 	<script type="text/javascript" src="includes/js/require.min.js"></script>
 	<script type="text/javascript" src="includes/js/ui-bootstrap-tpls-0.13.4.min.js"></script>
+	<script type="text/javascript" src="includes/js/skrollr.min.js"></script>
 </head>
-<body>
-	<div class="container" style="padding-left: 0;padding-right: 0;">
+<body data-spy="scroll" style="height:2000px; background: #282828;">
+	<div class="container" style="padding-left: 0;padding-right: 0;" data-19="background:black;" data-20="background:gray;">
 		<div class="well" style="text-align: center;"><h1>Congratulations to Michael and Robyn! They are they best!</h1></div>
 		<div class="well" style="text-align: center;"><h1>They don't know when it's going to be yet!</h1></div>
 	</div>
+
+<script>
+	var skrl = skrollr.init({
+		easing: 'sqrt'
+	});
+</script>
 </body>
 </html>
